@@ -1,0 +1,131 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Science at University of Pittsburgh</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/NEW-css.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+	<link rel="stylesheet" href="css/responsivedesign.css">
+	<script type="module" src="js/Top_bottombar.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<script>
+  $(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 105) {
+      $('#myTopnav').addClass('navbar-fixed');
+	  $('#bugfix').addClass('blockm');
+    }
+    else  {
+      $('#myTopnav').removeClass('navbar-fixed');
+	  $('#bugfix').removeClass('blockm');
+    }
+  });
+});
+</script>
+<script>
+	function Trigger() {
+    var x = document.getElementById("Topnavbar");
+    if (x.className === "navstyle") {
+      x.className += " responsive";
+    } else {
+      x.className = "navstyle";
+    }
+  }
+</script>
+  </head>
+  
+ 
+  <main> 
+  <body>
+	
+		<!--*************Title and drop down menu*****************-->
+		<header id="headerr">
+			
+		</header>
+
+
+		<div class="bios-background">
+		<div class = "bios-section-wrapper">
+		<h2 class = "page-header" style = "margin: 0; padding-top: 10px; padding-bottom: 50px; line-height: 1; font-size:250%">The Life of Engineering Science Students</h2>
+			
+					<div class = "picture-text">
+				
+						<img class = "profile-image" src="images/Natan.jpg" alt="Natan's photo" style = 'max-width:100% ; height: auto'>
+					
+						<div class = "profile-text">
+							<h3 style = "margin-top: 0; margin-bottom: 0"> Natan Herzog - 2<span class="super">nd</span> year Engineering Mechanics</h3>
+							<div class = "profile-buttons">
+								<div>
+									<ul>
+									<li> Sustainability Certificate </li>
+									<li> Physics Minor (plus some) </li>
+									<li> Mechanical Engineering Minor </li>
+									<li> Honors Joint Degree </li>
+								</ul>
+							</div>
+								<div class = "profile-buttons-alignment">
+									<a class = "profile-followup" href = "#"><span>More!</span></a>
+									<a class = "profile-followup" href="mailto:NPH17@pitt.edu"><span>Email</span></a>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+			
+		</div>	
+		</div>
+
+		<div class="bios-background">
+			<div class = "bios-section-wrapper">
+				
+						<div class = "picture-text">
+					
+							<img class = "profile-image" src="images/Natan.jpg" alt="Natan's photo" style = 'max-width:100% ; height: auto'>
+						
+							<div class = "profile-text">
+								<h3 style = "margin-top: 0; margin-bottom: 0"> Natan Herzog - 2<span class="super">nd</span> year Engineering Mechanics</h3>
+								<div class = "profile-buttons">
+									<div>
+										<ul>
+										<li> Sustainability Certificate </li>
+										<li> Physics Minor (plus some) </li>
+										<li> Mechanical Engineering Minor </li>
+										<li> Honors Joint Degree </li>
+									</ul>
+								</div>
+									<div class = "profile-buttons-alignment">
+										<a class = "profile-followup" href = "#"><span>More!</span></a>
+										<a class = "profile-followup" href="mailto:NPH17@pitt.edu"><span>Email</span></a>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+				
+			</div>	
+			</div>
+	</body>
+	
+	
+	<footer id="footerr">
+		
+	</footer>
+	
+	<script type="module" src="js/animation.js"></script>
+	
+</main> 
+</html>

@@ -5,11 +5,6 @@ html {
   box-sizing: inherit;
 }
 
-
-
-
-
-
 body {
   color: #343434;
   margin: 0;
@@ -539,6 +534,8 @@ align-items: center;
   
   background-color: #05213b;
   
+  border-radius: 4px;
+  
   color: #FFFFFF;
   text-align: center;
   font-size: 13px;
@@ -745,149 +742,3 @@ width: 19.4%;
 	  max-width:25%;
 	  display:inline-block;
   }
-
-
-  /*reserve*/
-/* 
-  @keyframes flip-with-rotate2 {
-	0% {
-	  transform: perspective(400px) rotatex(360deg);
-	}
-  
-	100% {
-	  transform: perspective(400px) rotatex(270deg);
-	}
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @keyframes slide1 {
-	from 
-	{
-		margin-left: 0;
-		
-		
-	}
-	to 
-	{
-		margin-right: 45%;
-		
-	}
-  }
-
-  .frame111 {
-	animation: 0.8s ease-out 0s 1 running slide1;
-    animation-fill-mode: forwards;
-  
-  } 
-  @keyframes slide2 {
-	from 
-	{
-		
-		margin-right: 45%;
-		
-	}
-	to 
-	{
-		
-		margin-left: 0;
-	}
-  }
-
-  .frame222 {
-	animation: 0.8s ease-out 0s 1 running slide2;
-    animation-fill-mode: forwards;
-  }
-  
-  
-  @keyframes flip-with-rotate {
-	0% {
-	  transform: perspective(400px) rotatex(0);
-	}
-  
-	100% {
-	  transform: perspective(400px) rotatex(90deg);
-	}
-  }
-
-  .frameflip{
-	animation-name:flip-with-rotate;
-	animation-timing-function: linear;
-    animation-duration: 0.35s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-  }
-
-
-  @keyframes flip-with-rotate1 {
-	0% {
-	  transform: perspective(400px) rotatex(270deg);
-	}
-  
-	100% {
-	  transform: perspective(400px) rotatex(360deg);
-	}
-  }
-
-  .frameflip1{
-	animation-name:flip-with-rotate1;
-	animation-timing-function: linear;
-    animation-duration: 0.35s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-  }
-
-  /*reserve*/
-/* 
-  @keyframes flip-with-rotate2 {
-	0% {
-	  transform: perspective(400px) rotatex(360deg);
-	}
-  
-	100% {
-	  transform: perspective(400px) rotatex(270deg);
-	}
-  }
-
-  .frameflip2{
-	animation-name:flip-with-rotate2;
-	animation-timing-function: linear;
-    animation-duration: 0.35s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-  }
-
-
-  @keyframes flip-with-rotate3 {
-	0% {
-	  transform: perspective(400px) rotatex(90deg);
-	}
-  
-	100% {
-	  transform: perspective(400px) rotatex(0deg);
-	}
-  }
-
-  .frameflip3{
-	animation-name:flip-with-rotate3;
-	animation-timing-function: linear;
-    animation-duration: 0.35s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-  } */ */

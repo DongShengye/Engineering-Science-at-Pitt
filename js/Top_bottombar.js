@@ -56,10 +56,10 @@ const content1=`<div class="gridcontainer8" style="">
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn" style="justify-items: center;align-self:center;align-items: center">Life@ES</button>
+        <button class="dropbtn" style="justify-items: center;align-self:center;align-items: center">Life @ ES</button>
         <div class="dropdown-content">
         <a href="EngineeringScience - Current Student Feedbacks.html">Student Feedbacks</a>
-            <a href="#">Student Projects</a>
+            <a href="EngineeringScience - Student Bios.html">Student Bios</a>
             
         </div>
     </div>
